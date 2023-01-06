@@ -1,0 +1,41 @@
+@import '../abstract/variaveis';
+
+.card-pedra-e-flor {
+    width: 610px;
+    text-align: center;
+    margin: 0 auto;
+
+    .img-pedra-e-flor {
+        padding-bottom: 2px;
+        border-bottom: 4px solid $cor-secundaria;
+
+        img {
+            max-width: 75%;
+        }
+    }
+
+    .texto-pedra-e-flor {
+
+        h3 {
+            font-size: $tamanho-do-texto / 1.5;
+            font-weight: 300;
+            margin-top: 25px;
+            margin-bottom: 20px;
+            color: $cor-primaria;
+        }
+
+        h4 {
+            font-size: $tamanho-do-texto / 2;
+            font-weight: 300;
+            margin-bottom: 8px;
+            color: $cor-secundaria;
+
+        }
+
+        p {
+            font-size: $tamanho-do-texto / 3;
+            color: $cor-primaria;
+            line-height: 1.25rem;
+        }
+    }
+}
